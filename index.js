@@ -8,8 +8,8 @@
     // Check to make sure we're on a valid PIM page
     if(numberOfRoles == 0){
         alert("Opening up PIM Pages. Please run this script again once you get there. Good luck!");
-        location.href= 'https://portal.azure.us/?feature.msaljs=false#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles';
         window.open('https://portal.azure.us/?feature.msaljs=false#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/azurerbac/provider/azurerbac');
+        location.href= 'https://portal.azure.us/?feature.msaljs=false#view/Microsoft_Azure_PIMCommon/ActivationMenuBlade/~/aadmigratedroles';
         return;
     }
         
